@@ -1,0 +1,91 @@
+* {
+margin: 0cm;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+}
+.navbar {
+    height: 40px;
+    background-color: rgb(231, 238, 243);
+    color: black;
+    display: flex;
+    gap: 30px;
+    
+}
+.border {
+    border: 2px solid transparent;
+}
+border:hover {
+    border: 2px solid rgb(189, 135, 69);
+}
+a {
+    text-decoration: none;
+    color: rgb(78, 54, 185);
+    padding: 0.5rem;
+    border-bottom: 0.5cqi;
+}
+
+.addicon {
+    display: flex;
+}
+.addsection {
+    font-weight: bold;
+    font-size: 30px ;
+    display: flex;
+    gap: 50px;
+    border: 1px solid rgb(201, 187, 187);
+    border:border-box;
+    text-align: center ;
+    background-color: rgb(89, 235, 186);
+}
+.addoptn {
+    display: flex;
+    font-size: 15px;
+    gap: 30px;
+}
+button {
+    color: rgb(201, 218, 201);
+    background-color: rgb(9, 177, 51);
+}
+.hero{
+    background-image: url("fi1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding: 2 rem;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+.section{
+    background-image: url("img.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    padding-top: 2rem;
+    background-attachment: fixed;
+    display: grid;
+    place-items: center;
+    height: 500px;
+}
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-size: 48px;
+    color: #1111f5;
+    text-shadow: 2px 2px 2px;
+}
+p {
+    font-style: oblique;
+    font-weight: 300;
+    color: rgb(238, 235, 238);
+
+}
+section{
+   background-color: rgb(167, 213, 231);
+    background-repeat: no-repeat;
+    place-content: center;
+    display: flex;
+}
+dl{
+    display: inline;
+}
