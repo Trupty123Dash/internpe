@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to top,#d8d520,#f1c2af, #09d43c,#e2ebf0,#13064b);
+    padding: 10px;
+}
+.container{
+    background:linear-gradient(to right,#e7db28,#fff);
+    border-radius: 50px;
+    margin: 150px auto 20px;
+    width: 100%;
+    max-width: 540px;
+    padding: 40px 30px 70px;
+    box-shadow: 0 0 30px #e0a2a2;
+    text-align: center;
+}
+h2{
+    color: #13064b;
+    position: relative;
+    justify-content: space-between;
+}
+h2::first-letter{
+    font-size: 40px;
+    color: #c03c07;
+    font-weight: bold;
+}
+ i{
+    width: 40px;
+    justify-content: space-evenly;
+    color: #13064b;
+    align-items: center;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline-offset: 5px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px  #ee7a7a;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+input::placeholder{
+    color: rgb(96, 7, 131);
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 30px;
+    color: #fff;
+    background: linear-gradient(to right,#d8d520,#c03c07);
+    cursor: pointer;
+    border-radius: 30px;
+    margin: 1px;
+}
+.text{
+    background: linear-gradient(to right,#13064b,#6195b6);
+    width: 100%;
+    
+}
+ul li{
+    position: relative;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+    border: 1px solid rgb(231, 212, 212);
+    padding: 10px;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+li i{
+    text-align: right;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+    color: #eb1313;
+}
